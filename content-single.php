@@ -70,14 +70,7 @@ else
 		<div class="entry-meta">
 			<?php isola_posted_on(); ?>
 		</div><!-- .entry-meta -->
-		<?php
-			$tags_list = get_the_tag_list( '', '' );
-			if ( $tags_list ) :
-		?>
-		<span class="tags-links">
-			<?php echo $tags_list; ?>
-		</span>
-		<?php endif; // End if $tags_list ?>
+		<?php the_tags( '<span class="tags-links">', '', '</span>' ); ?>
 
 		<?php edit_post_link( __( 'Edit', 'isola' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->

@@ -1,14 +1,19 @@
-# Translation of Isola in Hindi
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Hindi
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-25 14:22:25+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: hi_IN\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "शीर्ष"
 
 #: inc/template-tags.php:75
 msgid "Featured"
@@ -19,13 +24,13 @@ msgstr "विशेष रुप से प्रदर्शित"
 msgid "Automattic"
 msgstr "ऑटोमैटिक"
 
-#: searchform.php:14
-msgid "Search …"
-msgstr "खोजे ..."
-
 #: searchform.php:16
 msgid "Search"
 msgstr "खोजे"
+
+#: searchform.php:14
+msgid "Search …"
+msgstr "खोजे ..."
 
 #: searchform.php:3 searchform.php:14
 msgid "Search for:"
@@ -53,21 +58,21 @@ msgstr "पोस्ट नेविगेशन"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "नए पोस्टस <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "पोस्टस नेविगेशन"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> पुराने पोस्टस"
 
-#: header.php:54
-msgid "Close Menu"
-msgstr "मेनू बंद करें"
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "पोस्टस नेविगेशन"
 
 #: inc/extras.php:63
 msgid "Page %s"
 msgstr "पृष्ठ %s"
+
+#: header.php:54
+msgid "Close Menu"
+msgstr "मेनू बंद करें"
 
 #: header.php:23
 msgid "Skip to content"
@@ -93,6 +98,10 @@ msgstr "%s द्वारा गर्व के साथ संचालि�
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ऐसा लगता है आप जो देख रहे हैं हमें नहीं मिल रहा है। शायद खोज मदद कर सकता है।"
+
 #: content-none.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "क्षमा करें, लेकिन कुछ भी आपके खोज शब्दों से मेल नहीं खाते। कृपया कुछ अलग खोजशब्दों के साथ फिर से प्रयास करें।"
@@ -105,8 +114,8 @@ msgstr "अपनी पहली पोस्ट को प्रकाशि�
 msgid "Nothing Found"
 msgstr "कुछ नहीं मिला"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "सम्पादन"
 
@@ -166,17 +175,25 @@ msgstr[1] "%1$s विचार &ldquo;%2$s&rdquo पर;"
 msgid "Archives"
 msgstr "अभिलेख"
 
-#: archive.php:60
-msgid "Audios"
-msgstr "ऑडियोस"
-
 #: archive.php:63
 msgid "Chats"
 msgstr "चैट्स"
 
-#: archive.php:54
+#: archive.php:60
+msgid "Audios"
+msgstr "ऑडियोस"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "स्थितियां"
+
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "कड़ियाँ"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "उद्धरण"
 
 #: archive.php:48
 msgid "Videos"
@@ -191,22 +208,22 @@ msgid "Galleries"
 msgstr "गैलेरियां"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "वर्ष: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: archive.php:33
-msgid "Month: %s"
-msgstr "महीना: %s"
+#: archive.php:36
+msgid "Year: %s"
+msgstr "वर्ष: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "महीना: %s"
 
 #: archive.php:30
 msgid "Day: %s"

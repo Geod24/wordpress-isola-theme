@@ -2,13 +2,13 @@
 Theme Name: Isola
 Theme URI: https://wordpress.com/themes/isola/
 Description: Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size.
-Version: 1.0.6
+Version: 1.0.9
 Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: isola
-Tags: white, light, one-column, custom-background, custom-colors, custom-header, custom-menu, rtl-language-support, translation-ready, photoblogging, featured-images, post-formats, fixed-layout, responsive-layout
+Tags: blog, photography, one-column, custom-background, custom-colors, custom-header, custom-menu, rtl-language-support, translation-ready, featured-images, post-formats
 */
 
 /* =Reset
@@ -287,6 +287,10 @@ img {
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	left: -1000em;
+	overflow: hidden;
 }
 
 .screen-reader-text:focus {

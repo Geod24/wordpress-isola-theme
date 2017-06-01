@@ -1,28 +1,33 @@
-# Translation of Isola in Swedish
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Swedish
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-07-31 03:36:49+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Sidhuvud"
 
 #: inc/template-tags.php:75
 msgid "Featured"
 msgstr "Utvalda"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/isola/style.css
-msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
-msgstr "Isola är en fräsch och enkel canvas för dina bästa verk, perfekt för att dela med dig av dina skriverier, foton eller videoklipp på ett utmanande sätt. Dess primärmeny och widget-sektion är dolda bakom en behändig knapp vilket ger ditt innehåll massor med utrymme att synas. Isola ser fantastiskt ut oavsett enhet eller skärmstorlek."
-
 #. Author of the plugin/theme
 #: wp-content/themes/pub/isola/style.css
 msgid "Automattic"
 msgstr "Automattic"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
+msgstr "Isola är en fräsch och enkel canvas för dina bästa verk, perfekt för att dela med dig av dina skriverier, foton eller videoklipp på ett utmanande sätt. Dess primärmeny och widget-sektion är dolda bakom en behändig knapp vilket ger ditt innehåll massor med utrymme att synas. Isola ser fantastiskt ut oavsett enhet eller skärmstorlek."
 
 #: searchform.php:16
 msgid "Search"
@@ -54,13 +59,13 @@ msgstr "Inläggsnavigering"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "Inläggsnavigering"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Inläggsnavigering"
 
 #: inc/extras.php:63
 msgid "Page %s"
@@ -114,8 +119,8 @@ msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här
 msgid "Nothing Found"
 msgstr "Inget funnet"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "Redigera"
 
@@ -175,11 +180,19 @@ msgstr[1] "%1$s reaktioner på &rdquo;%2$s&rdquo;"
 msgid "Archives"
 msgstr "Arkiv"
 
+#: archive.php:63
+msgid "Chats"
+msgstr "Chattar"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Ljud"
+
 #: archive.php:57
 msgid "Statuses"
 msgstr "Statusar"
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "Länkar"
 
@@ -204,22 +217,22 @@ msgid "Asides"
 msgstr "Noteringar"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "År: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: archive.php:33
-msgid "Month: %s"
-msgstr "Månad: %s"
+#: archive.php:36
+msgid "Year: %s"
+msgstr "År: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Månad: %s"
 
 #: archive.php:30
 msgid "Day: %s"

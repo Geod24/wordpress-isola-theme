@@ -1,0 +1,243 @@
+# Translation of WordPress.com - Themes - Isola in Polish
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Nagłówek"
+
+#: inc/template-tags.php:75
+msgid "Featured"
+msgstr "Polecane"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Szukaj"
+
+#: searchform.php:3 searchform.php:14
+msgid "Search for:"
+msgstr "Szukaj:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla zapytania &#8222;%s&#8221;"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> &bdquo;%title&rdquo;"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Zobacz wpisy"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starsze wpisy"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Nawigacja po wpisach"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Strona %s."
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Przeskocz do treści"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:145
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr "Panel boczny"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Motyw: %1$s. Autor motywu: %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Dumnie wspierane przez WordPressa"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie przyniesie lepsze rezultaty."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Przykro nam, ale nie znaleziono niczego na podstawie wpisanych terminów. Spróbuj ponownie używając innych słów kluczowych."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gotowy do publikacji swojego pierwszego postu? <a href=\"%1$s\">Zacznij tutaj</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
+msgid "Edit"
+msgstr "Edytuj"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "% Comments"
+msgstr "% komentarzy"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "1 Comment"
+msgstr "1 komentarz"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "Comment"
+msgstr "komentarz"
+
+#: content-aside.php:22 content-gallery.php:29 content-page.php:18
+#: content-single.php:63 content.php:71
+msgid "Pages:"
+msgstr "Strony:"
+
+#: content-aside.php:19 content-gallery.php:26 content-single.php:9
+#: content-single.php:59 content.php:8 content.php:67
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Czytaj dalej <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:11 content-gallery.php:17 content.php:16
+msgid "All %s posts"
+msgstr "Wszystkie posty typu %s"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Możliwość komentowania jest wyłączona."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Nawigacja po komentarzach"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna uwaga do wpisu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s uwagi do wpisu &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s uwag do wpisu &ldquo;%2$s&rdquo;"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archiwa"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Konwersacje"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Dźwięki"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Stany"
+
+#: archive.php:54 inc/wpcom-colors.php:44
+msgid "Links"
+msgstr "Odnośniki"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Cytaty"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Filmy"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Obrazki"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galerie"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Treści poboczne"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Rok: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Miesiąc: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Dzień: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ojej! Nie można znaleźć tej strony."

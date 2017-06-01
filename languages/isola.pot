@@ -1,14 +1,14 @@
-# Copyright (C) 2016 Automattic
+# Copyright (C) 2017 Automattic
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Isola 1.0.4\n"
+"Project-Id-Version: Isola 1.0.6\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/isola\n"
-"POT-Creation-Date: 2016-01-01 04:11:06+00:00\n"
+"POT-Creation-Date: 2017-03-23 07:39:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Quotes"
 msgstr ""
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr ""
 
@@ -138,8 +138,8 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr ""
 
@@ -232,6 +232,10 @@ msgstr ""
 
 #: inc/template-tags.php:75
 msgid "Featured"
+msgstr ""
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
 msgstr ""
 
 #: search.php:16

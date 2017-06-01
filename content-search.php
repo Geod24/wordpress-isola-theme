@@ -13,6 +13,12 @@
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 	</header><!-- .entry-header -->
 
+	<?php if ( has_post_thumbnail() ) : ?>
+		<figure class="entry-thumbnail">
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'isola-featured' ); ?></a>
+		</figure>
+	<?php endif; ?>
+
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
@@ -27,14 +33,7 @@
 				<?php isola_posted_on(); ?>
 			</div>
 
-			<?php
-				$tags_list = get_the_tag_list( '', '' );
-				if ( $tags_list ) :
-			?>
-			<span class="tags-links">
-				<?php echo $tags_list; ?>
-			</span>
-			<?php endif; // End if $tags_list ?>
+			<?php the_tags( '<span class="tags-links">', '', '</span>' ); ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
 		<?php edit_post_link( __( 'Edit', 'isola' ), '<span class="edit-link">', '</span>' ); ?>

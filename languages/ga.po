@@ -1,14 +1,19 @@
-# Translation of Isola in Irish
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Irish
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-07-31 03:36:48+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ga_IE\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Ceanntásc"
 
 #: inc/template-tags.php:75
 msgid "Featured"
@@ -44,13 +49,13 @@ msgstr "Treoraíocht alt"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Chun tosaigh <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "Treoraíocht alt"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Chun deiridh"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Treoraíocht alt"
 
 #: inc/extras.php:63
 msgid "Page %s"
@@ -104,8 +109,8 @@ msgstr "bhFuil tú réidh le halt a fhoilsiú? <a href=\"%1$s\">Féadfaidh tú t
 msgid "Nothing Found"
 msgstr "Gan Toradh"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "Eagar"
 
@@ -168,19 +173,19 @@ msgstr[4] "%1$s smaoineamh ar “%2$s”"
 msgid "Archives"
 msgstr "Cartlanna"
 
-#: archive.php:60
-msgid "Audios"
-msgstr "Fuaimeanna"
-
 #: archive.php:63
 msgid "Chats"
 msgstr "Comhráití"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Fuaimeanna"
 
 #: archive.php:57
 msgid "Statuses"
 msgstr "Céimíochtaí"
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "Naisc"
 
@@ -205,22 +210,22 @@ msgid "Asides"
 msgstr "Seachfhocla"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "Bliain: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: archive.php:33
-msgid "Month: %s"
-msgstr "Mí: %s"
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Bliain: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Mí: %s"
 
 #: archive.php:30
 msgid "Day: %s"

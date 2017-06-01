@@ -1,14 +1,19 @@
-# Translation of Isola in Finnish
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Finnish
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-07 08:45:17+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Otsake"
 
 #: inc/template-tags.php:75
 msgid "Featured"
@@ -49,21 +54,21 @@ msgstr "Artikkelien selaus"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Uudemmat artikkelit <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "Artikkelien selaus"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat artikkelit"
 
-#: header.php:54
-msgid "Close Menu"
-msgstr "Sulje valikko"
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Artikkelien selaus"
 
 #: inc/extras.php:63
 msgid "Page %s"
 msgstr "Sivu %s"
+
+#: header.php:54
+msgid "Close Menu"
+msgstr "Sulje valikko"
 
 #: header.php:23
 msgid "Skip to content"
@@ -113,8 +118,8 @@ msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">
 msgid "Nothing Found"
 msgstr "Mitään ei löytynyt"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "Muokkaa"
 
@@ -178,7 +183,7 @@ msgstr "Keskustelut"
 msgid "Statuses"
 msgstr "Tilat"
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "Linkit"
 

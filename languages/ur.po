@@ -1,0 +1,230 @@
+# Translation of WordPress.com - Themes - Isola in Urdu
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ur_PK\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "ہیڈر"
+
+#: inc/template-tags.php:75
+msgid "Featured"
+msgstr "نمایاں"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#: searchform.php:16
+msgid "Search"
+msgstr "تلاش"
+
+#: searchform.php:3 searchform.php:14
+msgid "Search for:"
+msgstr "تلاش برائے:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "کے لئے تلاش کے نتائج %s"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "پوسٹ نیویگیشن"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "نئی پوسٹیں <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr " \t<span class=\"meta-nav\">&larr;</span> پرانی پوسٹیں"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "پوسٹوں کی نیویگیشن"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "%s صفحہ "
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "چھوڑیں اور مواد پر جائیں"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:145
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "جاری"
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr "بغلی ‌پٹی"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "بنیادی مینیو"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "تھیم: %1$s منجانب %2$s۔"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "کی فخریہ پیشکش %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "لگتا ہے ہم وہ نہیں ڈھونڈ پا رہے جو آپ چاہ رہے ہیں۔ شاید تلاش مدد کرسکے۔"
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "معزرت، مگر آپکی تلاش کا کوئی لفظ نہ مل سکا۔ برائے مہربانی کچھ دوسرے الفاظ سے دوبارہ کوشش کیجیے۔"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "پہلی تحریر شائع کرنے کے لیے تیار ہیں؟ <a href=\"%1$s\">یہاں سے شروع کیجیے</a>۔"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "کچھ نھیں ملا"
+
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
+msgid "Edit"
+msgstr "تدوین"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "% Comments"
+msgstr "% تبصرے"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "1 Comment"
+msgstr "1 تبصرہ"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "Comment"
+msgstr "تبصرہ"
+
+#: content-aside.php:22 content-gallery.php:29 content-page.php:18
+#: content-single.php:63 content.php:71
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: content-aside.php:19 content-gallery.php:26 content-single.php:9
+#: content-single.php:59 content.php:8 content.php:67
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "پڑھنا جاری رکھیں→"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "تبصرے بند ہیں."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "&rarr; نئے تبصرے"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "←پرانی رائے"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "تبصرہ نیویگیشن"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "ایک خیال &ldquo;%2$s&rdquo; پہ"
+msgstr[1] "%1$s خیالات &ldquo;%2$s&rdquo; پہ"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "محفوظات:"
+
+#: archive.php:54 inc/wpcom-colors.php:44
+msgid "Links"
+msgstr "روابط"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "اقتباسات"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "ویڈیوز"
+
+#: archive.php:45
+msgid "Images"
+msgstr "تصویریں"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "گیلریز"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "ایک طرف"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "مہینہ : %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "دن: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "مصنف: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "لگتا ہے اِس جگہ کچھ نہیں مل سکا۔ شلاش کی کوشش کیجیے؟"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوہ! وہ صفحہ نہیں مل سکا"

@@ -1,0 +1,260 @@
+# Translation of WordPress.com - Themes - Isola in Romanian
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Antet"
+
+#: inc/template-tags.php:75
+msgid "Featured"
+msgstr "Reprezentativ"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
+msgstr "Isola este o tablă proaspătă, curată, pentru cele mai bune lucrări ale tale, perfectă pentru prezentarea cu caractere aldine a scrisului, fotografiilor și videourilor. Meniul său principal și zona asamblabilă sunt ascunse în spatele unui buton la îndemână, oferindu-i conținutului tău o mulțime de loc pentru a respira și Isola arată frumos indiferent de dimensiunea dispozitivului sau a ecranului."
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Căutare"
+
+#: searchform.php:14
+msgid "Search …"
+msgstr "Caută..."
+
+#: searchform.php:3 searchform.php:14
+msgid "Search for:"
+msgstr "Caută după:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutări pentru: %s"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigare articole"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articole mai noi <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articole mai vechi"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigare în articole"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:54
+msgid "Close Menu"
+msgstr "Închide meniu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Sări la conţinut"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:145
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr "Bară laterală"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Propulsat cu mândrie de %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că nu putem găsi ceea ce cauți tu. Poate o căutare ar fi de ajutor."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nimic nu se potrivește termenilor căutării tale. Te rog încearcă din nou cu cuvinte cheie diferite."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gata să publici primul tău articol? <a href=\"%1$s\">Poți începe aici</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nu a fost găsit nimic"
+
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
+msgid "Edit"
+msgstr "Editare"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "1 Comment"
+msgstr "Un comentariu"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "Comment"
+msgstr "Comentariu"
+
+#: content-aside.php:22 content-gallery.php:29 content-page.php:18
+#: content-single.php:63 content.php:71
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-aside.php:19 content-gallery.php:26 content-single.php:9
+#: content-single.php:59 content.php:8 content.php:67
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuă lectura <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:11 content-gallery.php:17 content.php:16
+msgid "All %s posts"
+msgstr "Toate cele %s de articole "
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Comentariile nu sunt permise."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarii mai vechi"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Navigare în comentarii"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un gând despre &8222;%2$s&8221;"
+msgstr[1] "%1$s gânduri despre &8222;%2$s&8221;"
+msgstr[2] "%1$s de gânduri despre &8222;%2$s&8221;"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Arhive"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Discuții"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Fișiere audio"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Stări"
+
+#: archive.php:54 inc/wpcom-colors.php:44
+msgid "Links"
+msgstr "Legături"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Citate"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Fişiere video"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Imagini"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galerii"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Laterale"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "An: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Lună: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Zi: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Se pare că n-a fost găsit nimic la această locație. Poate încerci o căutare?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Pagina nu a fost găsită."

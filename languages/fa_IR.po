@@ -1,36 +1,41 @@
-# Translation of Isola in Persian
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Persian
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-05-31 05:50:15+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fa\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "سرآیند"
 
 #: inc/template-tags.php:75
 msgid "Featured"
 msgstr "ویژه"
-
-#. Description of the plugin/theme
-#: wp-content/themes/pub/isola/style.css
-msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
-msgstr "Isola یک پوستهٔ تمیز و تازه برای بهترین آثار شماست. عالی برای به نمایش گذاشتن جسورانهٔ نوشته‌هایتان، عکس‌هایتان، یا ویدئوهایتان. گزینگان و پهنهٔ ابزارک اصلی آن پشت یا دکمهٔ دم دست پنهان شده‌اند که باعث می‌شود مطالبتان فضای بیشتری برای نفس‌کشیدن داشته باشند. پوستهٔ‌ Isola روی هر ابزاری که دیده شود زیبا به نظر می‌رسد، اندازهٔ نمایشگر هر چه می‌خواهد باشد."
 
 #. Author of the plugin/theme
 #: wp-content/themes/pub/isola/style.css
 msgid "Automattic"
 msgstr "Automattic"
 
-#: searchform.php:14
-msgid "Search …"
-msgstr "جست‌وجو …"
+#. Description of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
+msgstr "Isola یک پوستهٔ تمیز و تازه برای بهترین آثار شماست. عالی برای به نمایش گذاشتن جسورانهٔ نوشته‌هایتان، عکس‌هایتان، یا ویدئوهایتان. گزینگان و پهنهٔ ابزارک اصلی آن پشت یا دکمهٔ دم دست پنهان شده‌اند که باعث می‌شود مطالبتان فضای بیشتری برای نفس‌کشیدن داشته باشند. پوستهٔ‌ Isola روی هر ابزاری که دیده شود زیبا به نظر می‌رسد، اندازهٔ نمایشگر هر چه می‌خواهد باشد."
 
 #: searchform.php:16
 msgid "Search"
 msgstr "جست‌وجو"
+
+#: searchform.php:14
+msgid "Search …"
+msgstr "جست‌وجو …"
 
 #: searchform.php:3 searchform.php:14
 msgid "Search for:"
@@ -58,21 +63,21 @@ msgstr "ناوبری نوشته"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "نوشته‌های تازه‌تر <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "ناوبری نوشته‌ها"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> نوشته‌های پیشین"
 
-#: header.php:54
-msgid "Close Menu"
-msgstr "بستن گزینگان"
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "ناوبری نوشته‌ها"
 
 #: inc/extras.php:63
 msgid "Page %s"
 msgstr "صفحهٔ %s"
+
+#: header.php:54
+msgid "Close Menu"
+msgstr "بستن گزینگان"
 
 #: header.php:23
 msgid "Skip to content"
@@ -122,8 +127,8 @@ msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ 
 msgid "Nothing Found"
 msgstr "چیزی پیدا نشد"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "ویرایش"
 
@@ -182,19 +187,19 @@ msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
 msgid "Archives"
 msgstr "بایگانی"
 
-#: archive.php:60
-msgid "Audios"
-msgstr "صوت‌ها"
-
 #: archive.php:63
 msgid "Chats"
 msgstr "گفتگوها"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "صوت‌ها"
 
 #: archive.php:57
 msgid "Statuses"
 msgstr "وضعیت‌ها"
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "پیوندها"
 
@@ -219,22 +224,22 @@ msgid "Asides"
 msgstr "کلمات قصار"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "سال: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: archive.php:33
-msgid "Month: %s"
-msgstr "ماه: %s"
+#: archive.php:36
+msgid "Year: %s"
+msgstr "سال: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "ماه: %s"
 
 #: archive.php:30
 msgid "Day: %s"

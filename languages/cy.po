@@ -1,0 +1,241 @@
+# Translation of WordPress.com - Themes - Isola in Welsh
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: cy_GB\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Pennyn"
+
+#: inc/template-tags.php:75
+msgid "Featured"
+msgstr "Nodweddion"
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/isola/style.css
+msgid "Isola is a fresh, clean slate for your best works, perfect for showcasing your writing, photographs, or videos in a bold way. Its primary menu and widget area are tucked behind a handy button, giving your content plenty of room to breathe, and Isola looks beautiful regardless of the device or screen size."
+msgstr "Mae Isola'n llechen ffres a glan ar gyfer eich gwaith gorau, yn berffaith ar gyfer dangos eich gwaith, lluniau neu fideos mewn ffordd amlwg. Mae ei brif ddewislen ac ardal teclyn wedi ei guddio tu ôl i fotwm hwylus, gan gynnig digon o le i ymestyn, mae Isola yn edrych yn dda beth bynnag yw'r ddyfais neu maint y sgrin."
+
+#: searchform.php:16
+msgid "Search"
+msgstr "Chwilio"
+
+#: searchform.php:3 searchform.php:14
+msgid "Search for:"
+msgstr "Chwilio am:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Canlyniadau Chwilio: %s"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Llywio cofnod"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Cofnodion mwy diweddar <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Cofnodion hŷn"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Symud o amgylch cofnodion"
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr "Tudalen %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Neidio i'r cynnwys"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:145
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "ymlaen"
+
+#: functions.php:81
+msgid "Sidebar"
+msgstr "Bar Ochr"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Dewislen Cynradd"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s gan %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Yn falch o gael ei bweru gan %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Mae'n ymddangos nad ydych yn gallu canfod yr hyn rydych yn chwilio amdano. Efallai y gall chwilio fod o gymorth."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ymddiheuriadau does dim yn cydweddu a'ch chwilio. Ceisiwch eto gydag allweddeiriau gwahanol"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Barod i gyhoeddi eich cofnod cyntaf? <a href=\"%1$s\">Cychwyn fan hyn</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Heb Ganfod Dim"
+
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
+msgid "Edit"
+msgstr "Golygu"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "% Comments"
+msgstr "% Sylw"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "1 Comment"
+msgstr "1 Sylw"
+
+#: content-aside.php:36 content-gallery.php:38 content-search.php:23
+#: content.php:80
+msgid "Comment"
+msgstr "Sylw"
+
+#: content-aside.php:22 content-gallery.php:29 content-page.php:18
+#: content-single.php:63 content.php:71
+msgid "Pages:"
+msgstr "Tudalennau:"
+
+#: content-aside.php:19 content-gallery.php:26 content-single.php:9
+#: content-single.php:59 content.php:8 content.php:67
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Parhau i ddarllen <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Sylwadau ar gau."
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Cofnodion Diweddarach &raquo;"
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&laquo; Cofnodion Hŷn"
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Llywio Sylwadau"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un sylw ar &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s sylw ar &ldquo;%2$s&rdquo;"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archif"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Statws"
+
+#: archive.php:54 inc/wpcom-colors.php:44
+msgid "Links"
+msgstr "Dolenni"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Dyfyniadau"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Fideo"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Delweddau"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galerïau"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Sylwadau"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Blwyddyn: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Mis: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Diwrnod: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Awdur: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Does dim wedi eu canfod yn fan hyn. Beth am chwilio?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Wps! Does dim modd canfod y dudalen honno."

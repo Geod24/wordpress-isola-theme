@@ -1,14 +1,19 @@
-# Translation of Isola in Hungarian
-# This file is distributed under the same license as the Isola package.
+# Translation of WordPress.com - Themes - Isola in Hungarian
+# This file is distributed under the same license as the WordPress.com - Themes - Isola package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-07-31 03:36:48+0000\n"
+"PO-Revision-Date: 2017-03-23 07:39:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Isola\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: hu\n"
+"Project-Id-Version: WordPress.com - Themes - Isola\n"
+
+#: inc/wpcom-colors.php:31
+msgid "Header"
+msgstr "Fejléc"
 
 #: inc/template-tags.php:75
 msgid "Featured"
@@ -49,13 +54,13 @@ msgstr "Bejegyzések navigációja"
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Újabb bejegyzés <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:21
-msgid "Posts navigation"
-msgstr "Bejegyzések navigációja"
-
 #: inc/template-tags.php:25
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Korábbi bejegyzés"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Bejegyzések navigációja"
 
 #: inc/extras.php:63
 msgid "Page %s"
@@ -109,8 +114,8 @@ msgstr "Készen állunk az első bejegyzés közzétételére? <a href=\"%1$s\">
 msgid "Nothing Found"
 msgstr "Nincs megfelelő találat"
 
-#: content-aside.php:51 content-gallery.php:53 content-page.php:24
-#: content-search.php:40 content-single.php:82 content.php:95
+#: content-aside.php:44 content-gallery.php:46 content-page.php:24
+#: content-search.php:33 content-single.php:75 content.php:88
 msgid "Edit"
 msgstr "Szerkesztés"
 
@@ -170,6 +175,10 @@ msgstr[1] "&ldquo;%2$s&rdquo; bejegyzéshez %1$ hozzászólás"
 msgid "Archives"
 msgstr "Archívumok"
 
+#: archive.php:63
+msgid "Chats"
+msgstr "Csevegések"
+
 #: archive.php:60
 msgid "Audios"
 msgstr "Audiók"
@@ -178,7 +187,7 @@ msgstr "Audiók"
 msgid "Statuses"
 msgstr "Állapotok"
 
-#: archive.php:54
+#: archive.php:54 inc/wpcom-colors.php:44
 msgid "Links"
 msgstr "Hivatkozások"
 
@@ -203,22 +212,22 @@ msgid "Asides"
 msgstr "Széljegyzetek"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "Év: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y."
 
-#: archive.php:33
-msgid "Month: %s"
-msgstr "Hónap: %s"
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Év: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "Y. F"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Hónap: %s"
 
 #: archive.php:30
 msgid "Day: %s"

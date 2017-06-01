@@ -47,6 +47,27 @@ If a Featured Image at least 1200px wide is set for a post, it will display abov
 
 == Changelog ==
 
+= 31 May 2017 =
+* Updating theme to use title-tag functionality. Bump version number.
+* Specifying infinite scroll for search results should use the search result loop. Adding featured images to search results (they would have been showing up on all but the first page with infinite scroll enabled). Bump version number.
+
+= 22 March 2017 =
+* add Custom Colors annotations directly to the theme
+* move fonts annotations directly into the theme
+
+= 6 February 2017 =
+* Replace get_the_tag_list() with the_tags() for a more straightforward approach that prevents potential fatal errors.
+
+= 4 October 2016 =
+* Add the new `fixed-menu` feature tag to the stylesheet.
+
+= 16 June 2016 =
+* Add a class of .widgets-hidden to the body tag when the sidebar is active; allows the widgets to be targeted by Direct Manipulation.
+* Position screen reader text items to the left so that funky outlines don't appear on focus.
+
+= 8 June 2016 =
+* Add Headstart annotations;
+
 = 13 April 2016 =
 * Fix CSS header format.
 * Ensure we escape $content on output.
